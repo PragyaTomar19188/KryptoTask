@@ -16,3 +16,8 @@ package, using ``pip`` to download it from PyPI_::
     
 Give your connection details in the conn section to connect to Postgre database in your system!
 
+Import flask
+
+ $ pip install flask
+
+
