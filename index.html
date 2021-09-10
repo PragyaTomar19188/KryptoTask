@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head><link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+<style>
+body {
+    font-family: 'Montserrat';font-size: 14px;
+}
+input[type=text], select {
+font-size:12px;  
+width: 100%;
+  padding: 12px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #EDEDED;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #F9F9F9;
+  font-family: 'Montserrat';
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: orange;
+  color: white;
+  padding: 16px 24px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.form1 {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+
+}
+</style>
+<body>
+
+<h1 style="margin-left: 200px;margin-top:40px" > <b>Stock Alert<br> <strong>App</strong></b></h1>
+
+<div class="form1" style="float:left;margin-left:190px;">
+  <form action="mainn.py" method="post">
+    <label for="fname"><b>Enter User Email</b></label>
+    <input type="text" id="fname" name="Email" placeholder="Enter Stock"><br><br>
+
+    <label for="lname"><b>Enter Password</b></label>
+    <input type="text" id="lname" name="Password" placeholder="Enter Password"><br><br>
+
+    <label for="country"><b>Enter BTC Stock Amount</b></label>
+    <input type="text" id="lname" name="lastname" placeholder="Stock"><br>
+
+ 
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div class="image" style="position:relative;float:right;margin-right:170px;" ><img src="Group 3769.jpg" width:"700" height:"700" alt="krypto"></div>
+
+</body>
+</html>
